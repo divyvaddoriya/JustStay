@@ -62,7 +62,7 @@ color: white;
 .hero-section-container {
   padding: 50px 80px;
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
 }
 .hero-bottom-container {
@@ -531,11 +531,15 @@ footer {
       width: 100%;
       padding: 10px 15px;
     }
+    .hero-section-container{
+      height: 100%;
+    }
     .hero-bottom-container{
       gap: 10px;
+      
     }
     .hero-section-description{
-      font-size: 0.8rem;
+      font-size: 1rem;
       font-weight: 300;
     }
     .book-now{
@@ -572,5 +576,8 @@ footer {
       }
       .about-section-image-1{
         width: 100%;
+      }
+      .about-card-2{
+        flex-direction: column-reverse;
       }
 }
