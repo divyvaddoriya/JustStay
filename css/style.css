@@ -84,7 +84,7 @@ color: white;
 }
 
 .welcome-header-text {
-  font-size: 50px;
+  font-size: 3rem;
   font-family: inherit;
   font-weight: bolder;
   line-height: 150%;
@@ -502,46 +502,6 @@ footer {
     color:#616161;
   }
 }
-/* 
-@media screen and (max-width: 900px) {
-
-    *{
-      margin : 0;
-      padding: 0;
-    }
-    .hero-section{
-        height: 120vh;
-    }
-    .hero-section-container{
-        padding: 0;
-        margin: 0;
-    } 
-
-    .about-section{
-      margin: 0 auto;
-      min-height: auto;
-    }
-    .about-section-content{
-
-        padding: 0;
-        gap: 0;
-    }
-    
-    .about-section-side-content{
-        width: 80vw;
-    }
-  .room-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .room-container{
-    padding: 0px;
-    margin-top: 100px;
-  }
- 
-} */
-
 
 @media screen and  (  max-width : 768px) {
   footer{
@@ -569,7 +529,26 @@ footer {
     }
     .hero-section-container{
       width: 100%;
-      overscroll-behavior: ;
+      padding: 10px 15px;
+    }
+    .hero-bottom-container{
+      gap: 10px;
+    }
+    .hero-section-description{
+      font-size: 0.8rem;
+      font-weight: 300;
+    }
+    .book-now{
+      padding: 5px 10px;
+      font-size: 1rem;
+    }
+    .explore-more{
+      font-size: 1rem;
+      padding: 5px 10px;
+    }
+    .welcome-header-text{
+      line-height: 100%;
+      font-size: 1.75rem
     }
     .about-section{
       margin: 50px 0px;
