@@ -53,7 +53,6 @@ color: white;
 }
 .hero-section {
   background-image: url("../assets/images/Home\ Screen.jpg");
-  background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
@@ -536,7 +535,8 @@ footer {
     }
     .hero-bottom-container{
       gap: 10px;
-      
+        bottom: 100px;
+
     }
     .hero-section-description{
       font-size: 1rem;
